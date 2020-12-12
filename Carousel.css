@@ -230,10 +230,10 @@ h3{
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: rgb(0, 0, 0);
 -webkit-text-fill-color: transparent;
-font-size: 5em;	
+font-size: 3em;	
 transform: rotate(90deg);
 position: relative;
 top: 2em;
-left: -2.4em;
+float: left;
 }
 
