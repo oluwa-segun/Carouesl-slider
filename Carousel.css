@@ -57,13 +57,14 @@ h1{
 	font-size: 5em;
 	padding: 0;
 	margin: 0;
-	font-weight: 900;
+	font-weight: 600;
 	color: #FFE600;
+	font-family: impact;
 }
 
 .brand{
 	position: relative;
-	top: -0.6em;
+	top: -0.5em;
 	right: 15px;
 }
 
@@ -105,7 +106,7 @@ span{
 		background: url('images/img2.PNG');
 		background-position: center;
 		background-size: cover;
-	}
+}
 
 .slide-3{
 		background: url('images/img3.PNG');
@@ -119,42 +120,41 @@ span{
 		background-size: cover;
 }
 
+
+section ul{
+	background: rgba(0, 0, 0, 0.904);
+	height: 100vh;
+	width: 100vw;
+	z-index: 100440;
+	list-style: none;
+	clip-path: circle(10px at 100% 0%);
+	-webkit-clip-path: circle(0px at 100% 0%);
+	transition: all 1s ease-out;
+}
+
+
+#hurger-menu.open{
+	clip-path: circle(1000px at 100% 0%);
+	-webkit-clip-path: circle(1000px at 100% 0%);
+} 
+
+
 section #hurger-menu .icons{
 	position: relative;
-	width: 70%;
-	top: 15%;
-	left: 30%;
-	right: 30%;
+	width: 15em;
 	height: 70%;
-	bottom: 15%;
+	margin: auto;
+	top: 30%;
+	left: 15%;
 }
 
 
 section #hurger-menu .icons .icon p{
 	margin: 1em 0;
-	font-size: 3em;
+	font-size: 2em;
 	top: 3%;
 	font-weight: 100;
 }
-
-
-    section ul{
-        background: rgba(0, 0, 0, 0.904);
-        height: 100vh;
-        width: 100vw;
-        z-index: 100440;
-        list-style: none;
-        clip-path: circle(10px at 100% 0%);
-        -webkit-clip-path: circle(0px at 100% 0%);
-        transition: all 1s ease-out;
-    }
-
-
-    #hurger-menu.open{
-        clip-path: circle(1000px at 100% 0%);
-        -webkit-clip-path: circle(1000px at 100% 0%);
-    } 
-
 
 #hurger-menu .icon{
 	display: flex;
@@ -162,21 +162,20 @@ section #hurger-menu .icons .icon p{
 }
 
 #hurger-menu .icon a .img{
-	width: 50px;
+	width: 40px;
 }
 
 #hurger-menu .icon a .hash{
 	position: relative;
-	top: 7em;
-	left: -4em;
-	
+	top: 4.5em;
+	left: -8em;
 }
 
 
 #hurger-menu .icon a .github{
 	position: relative;
 	top: 40%;
-	left: -3em;
+	left: -8em;
 }
 
 
@@ -236,4 +235,26 @@ position: relative;
 top: 2em;
 float: left;
 }
+
+
+.slide-3 h3{
+position: relative;
+left: -1.2em;
+top: 4em;
+}
+
+.slide-2 h3{
+position: relative;
+font-size: 5em;	
+}
+
+
+.slide-4 h3{
+position: relative;
+left: -0.7em;
+top: 2em;
+font-size: 5em;	
+
+}
+
 
