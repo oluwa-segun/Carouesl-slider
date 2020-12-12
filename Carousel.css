@@ -48,6 +48,7 @@ section{
 		width: 100%;
 		height: 100vh;
 		position: relative;
+		overflow: hidden;
 }
 
 h1{
@@ -95,7 +96,7 @@ span{
 }
 
 .slide-1{
-		background: url('images/img1.png');
+		background: url('images/img1.PNG');
 		background-position: center;
 		background-size: cover;
 }
@@ -107,7 +108,7 @@ span{
 	}
 
 .slide-3{
-		background: url('images/img3.png');
+		background: url('images/img3.PNG');
 		background-position: center;
 		background-size: cover;
 }
